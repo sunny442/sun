@@ -1,0 +1,186 @@
+@media only screen and (max-width: 30em){
+	body{
+		margin: 0px;
+		padding:0px;
+		box-sizing: border-box;
+	}
+	header{
+		width: 100%;
+		height: 3.75em;
+	}
+	.header__container{
+		height:3.75em;	
+	}
+	.header__container .menu ul li{
+		display: none;
+	}
+	.header__container .logo a{
+		font-size: 18px;
+	}
+	.header__container .icon i{
+	font-size: 1.25em;
+	margin-right: 0.5625em;
+	}
+	/*slider Start*/
+	slider,
+	slider .slider__container{
+	    width: 100%;
+	    height: 15em;
+	}
+	slider .slider__container .item img{
+		width: 100%;
+		height: 15em;
+	}
+	slider .slider__container h2{
+		left: 5%;
+		line-height: 0.8em;
+		letter-spacing: 0.15em;
+	}
+	.slider__container span, .slider__container small{
+		font-size: 10px;
+	}
+	/*best-seller Start*/
+	best-seller .seller__container ul {
+	    display: flex;
+	    flex-direction: column;
+	    text-align: center;
+	}
+	best-seller ul li{
+		width: 100%;
+	}
+	best-seller ul li:nth-child(2),
+	best-seller ul li:nth-child(3),
+	best-seller ul li:nth-child(4),
+	best-seller ul li:nth-child(5){
+		margin-bottom:2em;	
+	}
+	best-seller ul li p{
+		font-size: 1.25em;
+	}
+	/*section Start*/
+	section{
+		height: 37.5em;
+	}
+	section ul{
+		height: 37.5em;
+		display: flex;
+		flex-direction: column;
+	}
+	/*summer Start*/
+	summer .summer__container{
+		height: 100em;
+		width:100%;
+	}
+	summer ul{
+		width:100%;
+		height: 100em;
+		display: flex;
+		flex-direction: column;
+	}
+	summer ul li{
+		height: 100em;
+		width:100%;
+		text-align: center;
+	}
+	summer ul li img{
+		width: 12.5em;
+	}
+	summer ul li:nth-child(2){
+		background: #34394f;
+		width: 100%;
+	}
+	/*product Start*/
+	product ul{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	product ul li{
+		width: 100%;
+		margin: 1em 0em 1em 0em;
+	}
+	product ul li img{
+		width: 100%;
+	}
+	product ul li p{
+		font-size: 1.25em;
+	}
+	/*discount Start*/
+	discount ul{
+		width: 100%;
+		height: 37.5em;
+		display: flex;
+		flex-direction: column;
+	}
+	discount ul li:nth-child(1){
+       width: 100%;
+       height: 18.75em;
+	}
+	discount ul li:nth-child(1) button{
+		margin-top: 1em;
+	}
+	discount ul li:nth-child(2) img{
+		width: 9em;
+		height: 9em;
+	}
+	discount ul li:nth-child(2){
+       width: 100%;
+       height: 18.75em;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    /*footer Start*/
+    footer ul{
+		height: 7.5em;
+		display: flex;
+	    flex-direction: column;
+	   	justify-content: center;
+	}
+	footer ul li:nth-child(1){
+		width: 100%;
+	}
+	footer ul li:nth-child(2){
+		width: 100%;
+		margin-top: 1em;
+	}
+}
+@media only screen and (max-width: 17.5em){
+	body{
+		margin: 0px;
+		padding:0px;
+		box-sizing: border-box;
+	}
+	slider,
+	slider .slider__container{
+	    width: 100%;
+	    height: 10em;
+	}
+	slider .slider__container .item img{
+		width: 100%;
+		height: 10em;
+	}
+	discount ul{
+		height: 37.5em;
+	}
+	discount ul li:nth-child(1){
+       width: 100%;
+       height: 20.75em;
+	}
+	discount ul li .Special a{
+		font-size: 1.2em;
+	}
+	discount ul li .Special small,
+	discount ul li .Special p{
+		color: #fff;
+		font-size: 0.8em;
+ 	}
+	discount ul li:nth-child(2) img{
+		width: 6em;
+		height: 6em;
+	}
+	/*footer Start*/
+	footer ul li:nth-child(2) img{
+		margin-right: 0em;
+	}
+}

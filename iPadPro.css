@@ -1,0 +1,101 @@
+@media only screen and (min-width: 64em) and (max-width: 77.4375em){
+	body{
+		margin: 0px;
+		padding:0px;
+		box-sizing: border-box;
+	}
+
+	/*header Start*/
+	header{
+		width: 100%;
+	}
+	.header__container .menu ul li{
+		margin-right: 1em;
+	}
+
+	/*slider Start*/
+	slider,
+	slider .slider__container{
+	    width: 100%;
+	    height: 30em;
+	}
+	slider .slider__container .item img{
+		width: 100%;
+		height: 30em;
+	}
+	slider .slider__container h2{
+		left: 10%;
+	}
+
+	/*best-seller Start*/
+	best-seller {
+    width: 100%;
+	}
+	best-seller .seller__container ul {
+       width: 100%;
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       flex-wrap: wrap; 
+	}
+	best-seller ul li:nth-child(1){
+		width: 100%;
+	}
+	best-seller ul li:nth-child(2),
+	best-seller ul li:nth-child(3),
+	best-seller ul li:nth-child(4),
+	best-seller ul li:nth-child(5){
+		width:23%;
+		margin:0em 1em 1em 0em;
+	}
+	best-seller .seller__container ul li a{
+		font-size: 1.1em;
+	}
+
+	/*product Start*/
+	product ul{
+		width: 100%;
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	product ul li {
+		width: 46%;
+		margin: 1em 1em 1em 1em;
+	}
+	product ul li img{
+		width: 100%;
+	}
+	/*discount Start*/
+	discount ul{
+		width: 100%;
+		height: 38.5em;
+		display: flex;
+		flex-direction: column;
+	}
+	discount ul li .Special{
+		line-height: 1.5;	
+	}
+	discount ul li .Special a{
+		font-size: 2.5em;
+	}
+	discount ul li .Special small,
+	discount ul li .Special p{	
+		font-size: 1.5em;
+    }
+	discount ul li:nth-child(1){
+        width: 100%;
+        height: 100%;
+	}
+	discount ul li:nth-child(2){
+        width: 100%;
+        height: 100%;
+    }
+    discount ul li:nth-child(1) input{
+		width: 25.75em;
+	}
+	discount ul li:nth-child(1) button{
+		width: 14.5em;
+	}
+}
